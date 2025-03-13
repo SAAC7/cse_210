@@ -1,19 +1,19 @@
 using System.IO;
 public class Journal{
-    List<Notes> _notes = new List<Notes>();
+    List<Entry> _entrys = new List<Entry>();
     public void CreateNote(){
         Console.WriteLine("");
         string question =Utilities.RandomQuestion();
         Console.WriteLine(question);
         string answer = Console.ReadLine();
         Console.WriteLine("");
-        Notes note = new Notes(DateTime.Now,question,answer);
-        _notes.Add(note);
+        Entry entry = new Entry(DateTime.Now,question,answer);
+        _entrys.Add(entry);
     }
     public void Display(){
-        if (_notes.Count > 0)
+        if (_entrys.Count > 0)
         {
-            foreach (Notes note in _notes){
+            foreach (Entry note in _entrys){
             note.DisplayNote();
             }
         }
@@ -27,8 +27,8 @@ public class Journal{
     public void SaveToFile(string filename){
         using (StreamWriter outputFile = new StreamWriter(filename))    
         {
-            foreach (Notes note in _notes){
-            outputFile.WriteLine($"{note._theCurrentTime}|{note._question}|{note._answer}");
+            foreach (Entry entry in _entrys){
+            outputFile.WriteLine($"{entry._date}|{entry._prompt}|{entry._entryText}");
             }    
         }
         
@@ -37,8 +37,8 @@ public class Journal{
         string[] lines = System.IO.File.ReadAllLines(filename);
         foreach (string line in lines){
             string[]parts = line.Split('|');
-            Notes note = new Notes(DateTime.Parse(parts[0]),parts[1],parts[2]);
-            _notes.Add(note);
+            Entry entry = new Entry(DateTime.Parse(parts[0]),parts[1],parts[2]);
+            _entrys.Add(entry);
         }
 
     }
