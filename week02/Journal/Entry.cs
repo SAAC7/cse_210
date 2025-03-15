@@ -9,7 +9,7 @@ public class Entry{
         this._entryText = _entryText;
     }
 
-    public void DisplayNote(){
+    public void Display(){
         Console.WriteLine($"Date: {_date.ToShortDateString()} - Prompt: {_prompt}");
         Console.WriteLine(_entryText);
     }
