@@ -11,7 +11,7 @@ class Reference
        _book = book;
        _chapter = chapter;
        _startverse = verse;
-       _endverse = null;
+       _endverse = verse;
     }
 
 
@@ -27,7 +27,7 @@ class Reference
     public string GetReference()
     {
         // 2 Nephi 2:25-30
-        return _endverse != null ? $"{_book} {_chapter}: {_startverse}-{_endverse}" : $"{_book} {_chapter}: {_startverse}";
+        return _endverse != _startverse ? $"{_book} {_chapter}: {_startverse}-{_endverse}" : $"{_book} {_chapter}: {_startverse}";
 
         // if (_endverse != null){
         //return "${_book}" {_chapter}: {_startverse};

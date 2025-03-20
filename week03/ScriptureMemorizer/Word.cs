@@ -12,8 +12,24 @@ class Word
     public void Hide(){
         _isHidden = true;
     }
+    public void Show(){
+        _isHidden = false;
+    }
     public bool IsHidden(){
         return _isHidden;
     }
     
+    public string GetWord(){
+        string word="";
+        if (_isHidden)
+        {
+            foreach (char c in _word)
+        {
+            word += "_";
+        }
+            return word;
+        }
+        
+        return _word;
+    }
 }
