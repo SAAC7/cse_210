@@ -1,4 +1,5 @@
 using System;
+using System.Net.Sockets;
 
 class Program
 {
@@ -7,3 +8,4 @@ class Program
         Console.WriteLine("Hello World! This is the ScriptureMemorizer Project.");
     }
 }
+
