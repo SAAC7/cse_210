@@ -19,15 +19,9 @@ class Program
              Console.WriteLine();
              Console.WriteLine("Press ENTER to continue or 'quit' to finish.");
              string input = Console.ReadLine();
-
              if (input.Trim().ToLower() == "quit")
                  break;
-
-             // Oculta algunas palabras
-            
              scripture.HideWords();
-
-             // Termina el programa si todas las palabras están ocultas
              if (scripture.IsCompletelyHidden())
              {
                  Console.Clear();
