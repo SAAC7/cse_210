@@ -1,10 +1,10 @@
 using System;
 class Reference
 {
-    private string _book;
-    private int _chapter;
-    private int _startverse;
-    private int _endverse;
+    private string _book {get;set;}
+    private int _chapter {get; set;}
+    private int _startverse {get; set;}
+    private int _endverse {get; set;}
 // 2 Nephi 2:25
     public Reference(string book, int chapter, int verse)
     {

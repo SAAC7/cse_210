@@ -1,35 +1,36 @@
 using System;
 class Word
 {
-    private string _word;
-    private bool _isHidden;
+    private string _word { get;  set; }
+    private bool _isHidden { get; set; }
     public Word(string word)
     {
         _word = word;
         _isHidden = false;
     }
 
-    public void Hide(){
+    public void Hide()
+    {
         _isHidden = true;
     }
-    public void Show(){
+    public void Show()
+    {
         _isHidden = false;
     }
-    public bool IsHidden(){
+    public bool IsHidden()
+    {
         return _isHidden;
     }
-    
-    public string GetWord(){
-        string word="";
+
+    public string GetWord()
+    {
         if (_isHidden)
         {
-            foreach (char c in _word)
+            return new string('_', _word.Length);
+        }
+        else
         {
-            word += "_";
+            return _word;
         }
-            return word;
-        }
-        
-        return _word;
     }
 }
