@@ -1,33 +1,40 @@
 using System;
+using System.Collections.Generic; // Agregado
 using System.Net.Sockets;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Word palabra  = new Word("hola");
-        Console.WriteLine(palabra.GetWord());
-        palabra.Hide();
-        Console.WriteLine(palabra.GetWord());
+         // Ejemplo de creación de una referencia y pasaje.
+         Reference reference = new Reference("John", 3, 16);
+         string text = "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.";
 
+         Scripture scripture = new Scripture(reference, text);
 
-//         absar @absar-hybrid:/ media / data / Github / cse_210$  / home / absar /.vscode / extensions / ms - dotnettools.csharp - 2.63.32 - linux - x64 /.debugger / vsdbg--interpreter = vscode--connection =/ tmp / CoreFxPipe_vsdbg - ui - 7aaff607f913487487f06d630dad1085
-// You must install or update .NET to run this application.
+         while (true)
+         {
+             Console.Clear();
+             Console.WriteLine(scripture.Display());
+             Console.WriteLine();
+             Console.WriteLine("Press ENTER to continue or 'quit' to finish.");
+             string input = Console.ReadLine();
 
-// App: / media / data / Github / cse_210 / week03 / ScriptureMemorizer / bin / Debug / net8.0 / ScriptureMemorizer.dll
-// Architecture: x64
-// Framework: 'Microsoft.NETCore.App', version '8.0.0'(x64)
-// .NET location: / usr / share / dotnet /
+             if (input.Trim().ToLower() == "quit")
+                 break;
 
-// The following frameworks were found:
-//   9.0.3 at[/ usr / share / dotnet / shared / Microsoft.NETCore.App]
+             // Oculta algunas palabras
+            
+             scripture.HideWords();
 
-// Learn more:
-// https://aka.ms/dotnet/app-launch-failed
-
-//         To install missing framework, download:
-// https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=8.0.0&arch=x64&rid=linux-x64&os=debian.12
-
+             // Termina el programa si todas las palabras están ocultas
+             if (scripture.IsCompletelyHidden())
+             {
+                 Console.Clear();
+                 Console.WriteLine(scripture.Display());
+                 Console.WriteLine("\n¡Todas las palabras han sido ocultas! Fin del programa.");
+                 break;
+             }
+         }
     }
 }
-
