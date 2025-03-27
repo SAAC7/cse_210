@@ -1,0 +1,156 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.2 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="eegBA_h1V-tdiCvp6mNh">
+    <mxGraphModel dx="2643" dy="2204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-54" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=500;tabHeight=110;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="637" width="950" height="813" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-53" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=500;tabHeight=110;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-20" width="800" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-1" value="Video" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="280" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-2" value="+ _tiitle: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-1">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-5" value="+ _author: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-1">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-7" value="+ _length: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-1">
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-8" value="+ _comment: List&amp;lt;Comment&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-1">
+          <mxGeometry y="104" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-1">
+          <mxGeometry y="130" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-4" value="+ AddComment(Comment _comment): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-1">
+          <mxGeometry y="138" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-15" value="+ GetNumberOfComments(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-1">
+          <mxGeometry y="164" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-16" value="+ GetComments(): List&amp;lt;Comment&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-1">
+          <mxGeometry y="190" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-9" value="Comment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="260" width="160" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-10" value="+ _user: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-9">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-13" value="+ _text: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-9">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kd-vBcP4L_C-JE3FmPVr-8" target="Kd-vBcP4L_C-JE3FmPVr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-17" value="Product" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1050" width="160" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-18" value="+ _name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-17">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-38" value="+ _product_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-17">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-39" value="+ _price: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-17">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-40" value="+ _quiantity: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-17">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-17">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-20" value="+ CostValue(): float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-17">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;p&gt;Write a program that has classes for &lt;code&gt;Product&lt;/code&gt;, &lt;code&gt;Customer&lt;/code&gt;, &lt;code&gt;Address&lt;/code&gt;, and &lt;code&gt;Order&lt;/code&gt;. The responsibilities of these classes are as follows:&lt;/p&gt;&#xa;   &lt;h6&gt;Order&lt;/h6&gt;&#xa;   &lt;ul&gt;&#xa;    &lt;li&gt;Contains a list of products and a customer. Can calculate the &#xa;total cost of the order. Can return a string for the packing label. Can &#xa;return a string for the shipping label.&lt;/li&gt;&#xa;    &lt;li&gt;The total price is calculated as the sum of the total cost of each product plus a one-time shipping cost.&lt;/li&gt;&#xa;    &lt;li&gt;This company is based in the USA. If the customer lives in the &#xa;USA, then the shipping cost is $5. If the customer does not live in the &#xa;USA, then the shipping cost is $35.&lt;/li&gt;&#xa;    &lt;li&gt;A packing label should list the name and product id of each product in the order.&lt;/li&gt;&#xa;    &lt;li&gt;A shipping label should list the name and address of the customer&lt;/li&gt;&#xa;   &lt;/ul&gt;&#xa;   &lt;h6&gt;Product&lt;/h6&gt;&#xa;   &lt;ul&gt;&#xa;    &lt;li&gt;Contains the name, product id, price, and quantity of each product.&lt;/li&gt;&#xa;    &lt;li&gt;The total cost of this product is computed by multiplying the &#xa;price per unit and the quantity. (If the price per unit was $3 and they &#xa;bought 5 of them, the product total cost would be $15.)&lt;/li&gt;&#xa;   &lt;/ul&gt;&#xa;   &lt;h6&gt;Customer&lt;/h6&gt;&#xa;   &lt;ul&gt;&#xa;    &lt;li&gt;The customer contains a name and an address.&lt;/li&gt;&#xa;    &lt;li&gt;The name is a string, but the Address is a class.&lt;/li&gt;&#xa;    &lt;li&gt;The customer should have a method that can return whether they &#xa;live in the USA or not. (Hint this should call a method on the address &#xa;to find this.)&lt;/li&gt;&#xa;   &lt;/ul&gt;&#xa;   &lt;h6&gt;Address&lt;/h6&gt;&#xa;   &lt;ul&gt;&#xa;    &lt;li&gt;The address contains a string for the street address, the city, state/province, and country.&lt;/li&gt;&#xa;    &lt;li&gt;The address should have a method that can return whether it is in the USA or not.&lt;/li&gt;&#xa;    &lt;li&gt;The address should have a method to return a string all of its &#xa;fields together in one string (with newline characters where &#xa;appropriate)&lt;/li&gt;&#xa;   &lt;/ul&gt;&#xa;   &lt;h5&gt;Other considerations&lt;/h5&gt;&#xa;   &lt;p&gt;Make sure that all member variables are private and getters, setters, and constructors are created as needed.&lt;/p&gt;&#xa;   &lt;p&gt;Once you have created these classes, write a program that creates &#xa;at least two orders with a 2-3 products each. Call the methods to get &#xa;the packing label, the shipping label, and the total price of the order,&#xa; and display the results of these methods.&lt;/p&gt;&#xa;   &lt;h4&gt;User Interaction&lt;/h4&gt;&#xa;   &lt;p&gt;The focus of the Foundation programs is to help you design and &#xa;build the classes and work with the relationships among these classes. &#xa;With that in mind, you do not need to create a menu system or a user &#xa;interface. Instead, your Program.cs file should create the required &#xa;objects, set their values, and display them as specified, without any &#xa;user interaction.&lt;/p&gt;&#xa;   &lt;h4&gt;Showing Creativity&lt;/h4&gt;&#xa;   &lt;p&gt;Because the purpose of these Foundation programs is to help you &#xa;practice the principles of the course in a very direct way, you are not &#xa;expected to show creativity and exceed the core requirements the way you&#xa; have in previous projects. You can earn 100% by completing the &#xa;requirements as specified.&lt;/p&gt;" link="&lt;p&gt;Write a program that has classes for &lt;code&gt;Product&lt;/code&gt;, &lt;code&gt;Customer&lt;/code&gt;, &lt;code&gt;Address&lt;/code&gt;, and &lt;code&gt;Order&lt;/code&gt;. The responsibilities of these classes are as follows:&lt;/p&gt;&#xa;   &lt;h6&gt;Order&lt;/h6&gt;&#xa;   &lt;ul&gt;&#xa;    &lt;li&gt;Contains a list of products and a customer. Can calculate the &#xa;total cost of the order. Can return a string for the packing label. Can &#xa;return a string for the shipping label.&lt;/li&gt;&#xa;    &lt;li&gt;The total price is calculated as the sum of the total cost of each product plus a one-time shipping cost.&lt;/li&gt;&#xa;    &lt;li&gt;This company is based in the USA. If the customer lives in the &#xa;USA, then the shipping cost is $5. If the customer does not live in the &#xa;USA, then the shipping cost is $35.&lt;/li&gt;&#xa;    &lt;li&gt;A packing label should list the name and product id of each product in the order.&lt;/li&gt;&#xa;    &lt;li&gt;A shipping label should list the name and address of the customer&lt;/li&gt;&#xa;   &lt;/ul&gt;&#xa;   &lt;h6&gt;Product&lt;/h6&gt;&#xa;   &lt;ul&gt;&#xa;    &lt;li&gt;Contains the name, product id, price, and quantity of each product.&lt;/li&gt;&#xa;    &lt;li&gt;The total cost of this product is computed by multiplying the &#xa;price per unit and the quantity. (If the price per unit was $3 and they &#xa;bought 5 of them, the product total cost would be $15.)&lt;/li&gt;&#xa;   &lt;/ul&gt;&#xa;   &lt;h6&gt;Customer&lt;/h6&gt;&#xa;   &lt;ul&gt;&#xa;    &lt;li&gt;The customer contains a name and an address.&lt;/li&gt;&#xa;    &lt;li&gt;The name is a string, but the Address is a class.&lt;/li&gt;&#xa;    &lt;li&gt;The customer should have a method that can return whether they &#xa;live in the USA or not. (Hint this should call a method on the address &#xa;to find this.)&lt;/li&gt;&#xa;   &lt;/ul&gt;&#xa;   &lt;h6&gt;Address&lt;/h6&gt;&#xa;   &lt;ul&gt;&#xa;    &lt;li&gt;The address contains a string for the street address, the city, state/province, and country.&lt;/li&gt;&#xa;    &lt;li&gt;The address should have a method that can return whether it is in the USA or not.&lt;/li&gt;&#xa;    &lt;li&gt;The address should have a method to return a string all of its &#xa;fields together in one string (with newline characters where &#xa;appropriate)&lt;/li&gt;&#xa;   &lt;/ul&gt;&#xa;   &lt;h5&gt;Other considerations&lt;/h5&gt;&#xa;   &lt;p&gt;Make sure that all member variables are private and getters, setters, and constructors are created as needed.&lt;/p&gt;&#xa;   &lt;p&gt;Once you have created these classes, write a program that creates &#xa;at least two orders with a 2-3 products each. Call the methods to get &#xa;the packing label, the shipping label, and the total price of the order,&#xa; and display the results of these methods.&lt;/p&gt;&#xa;   &lt;h4&gt;User Interaction&lt;/h4&gt;&#xa;   &lt;p&gt;The focus of the Foundation programs is to help you design and &#xa;build the classes and work with the relationships among these classes. &#xa;With that in mind, you do not need to create a menu system or a user &#xa;interface. Instead, your Program.cs file should create the required &#xa;objects, set their values, and display them as specified, without any &#xa;user interaction.&lt;/p&gt;&#xa;   &lt;h4&gt;Showing Creativity&lt;/h4&gt;&#xa;   &lt;p&gt;Because the purpose of these Foundation programs is to help you &#xa;practice the principles of the course in a very direct way, you are not &#xa;expected to show creativity and exceed the core requirements the way you&#xa; have in previous projects. You can earn 100% by completing the &#xa;requirements as specified.&lt;/p&gt;" id="Kd-vBcP4L_C-JE3FmPVr-21">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="1050" y="340" width="560" height="1640" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-22" value="Customer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1076" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-23" value="+ _name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-22">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-41" value="+ _address: Address" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-22">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-22">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-25" value="+ LiveInUSA(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-22">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-26" value="Address" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1214" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-27" value="+ _streetAddress: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-26">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-43" value="+ _city: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-26">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-42" value="+ _state: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-26">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-44" value="+ _country: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-26">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-26">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-29" value="+ InUSA(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-26">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-45" value="+ GetAddress(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-26">
+          <mxGeometry y="164" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-30" value="Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="790" width="215" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-31" value="+ _products: List&amp;lt;Products&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-30">
+          <mxGeometry y="26" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-34" value="+ _client: Customer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-30">
+          <mxGeometry y="52" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-30">
+          <mxGeometry y="78" width="215" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-33" value="+ TotalCost(): float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-30">
+          <mxGeometry y="86" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-36" value="+ PackingLabel(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-30">
+          <mxGeometry y="112" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-37" value="+ ShippingLabel(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Kd-vBcP4L_C-JE3FmPVr-30">
+          <mxGeometry y="138" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kd-vBcP4L_C-JE3FmPVr-41" target="Kd-vBcP4L_C-JE3FmPVr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kd-vBcP4L_C-JE3FmPVr-34" target="Kd-vBcP4L_C-JE3FmPVr-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kd-vBcP4L_C-JE3FmPVr-31" target="Kd-vBcP4L_C-JE3FmPVr-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-52" value="&lt;span class=&quot;description description_title&quot;&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;YouTube Videos&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="49" y="25" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd-vBcP4L_C-JE3FmPVr-55" value="&lt;span class=&quot;description description_title&quot;&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;Online Ordering&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="690" width="390" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
