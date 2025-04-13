@@ -1,0 +1,5 @@
+1230,2,1500
+SimpleGoal:Make the bed,I need to make the bed in the morning,50,True
+EternalGoal:Read Scriptures,Read the scriptures fat least 10 min,30
+ChecklistGoal:Go to temple,go to temple,90,500,5,0
+ChecklistGoal:temple2,temple2,90,5,500,5
